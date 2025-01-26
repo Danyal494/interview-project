@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div className="h-screen max-sm:mt-40 flex justify-around max-sm:justify-center items-center">
-      <div className="introdiv ">
+      <div className="introdiv mt-32 ">
         <h1 className="text-white font-medium  text-[53px]">
           Safely{" "}
           <span className="text-[#72FDFC]">
@@ -12,7 +12,7 @@ const Home = () => {
           a Diverse Array <br />
           of Digital Assets
         </h1>
-        <p className="text-white my-12 text-2xl">
+        <p className="text-white my-9 text-2xl">
           Own & Earn your crypto with{" "}
           <span className="text-[#72FDFC]">PressX</span>
         </p>
@@ -33,7 +33,7 @@ const Home = () => {
         </div>
       </div>
       <div className="mobilearea flex items-center h-[90%] my-10 ">
-        <img className="lg:h-[752px] md:h-[452px] max-sm:hidden " src="image 9.png" alt="" />
+        <img className="lg:h-[650px] md:h-[452px] max-sm:hidden " src="image 9.png" alt="" />
       </div>
     </div>
   );
